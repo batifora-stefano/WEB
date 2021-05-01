@@ -1,0 +1,48 @@
+* {
+  background: url(https://fondosmil.com/fondo/19875.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 40px;
+  text-decoration-line: line-through;
+  text-decoration-color: black;
+  background-position: top;
+}
+body {
+  color: red;
+}
+td {
+	background-position: top;
+}
+th {
+	background-position: top;
+}
+a {
+  color: white;
+  background: black;
+  font-family: arial; 
+  font-size: 30px;
+}
+
+nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+nav li a:hover {
+  background: red;
+  color:#fffafa;
+}
+
+@media screen and (min-width: 480px) {
+  nav ul {
+    display: flex;
+   justify-content:space-between;
+  }
+}
