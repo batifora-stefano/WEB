@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra - Nike</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" type="text/css" href="nike.css" />
+</head>
+
+<header>
+  <h2 style="color:black; font-family:futura ; font-size:150px">NIKE</h2>
+</header>
+
+<body style="font-family: times new roman; font-size: 30px; text-align: center">
+<h2 style="color: black; font-family: Courier New; font-size:50px; text-align: center ">¡Ingresa tus datos aqui!</h2>
+
+ <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+  
+  <!--input type  -->
+ Ingrese su nombre:
+  <input type="text" name="Nombre">
+  <br>
+  <br>
+   Ingrese su apellido:
+  <input type="text" name="ap">
+  <br>
+  <br>
+  Ingrese su contraseña:
+  <input type = "password" name="contra" >
+  <br>
+  <br>
+
+ <!--lista desplegable  -->
+ Tipo de entrega:
+  <select name="Opciones">
+    <option value = "Retiro en tienda">Retiro en tienda</option>
+    <option value = "Envío a domicilio">Envío a domicilio</option>
+    </select>
+    <br>
+    <br>  
+
+   <!--opciones  -->  
+   Selecciona medio de pago: <br>  
+    <input type="radio" id="Efectivo" name="pago" value="Efectivo" >
+     <label for= "Efectivo">Efectivo</label>
+     <br>
+    <input type="radio" id="Mercado pago" name="pago" value="Mercado pago">
+     <label for= "Mercado pago">Mercado pago</label>
+     <br>  
+    <input type="radio" id="Tarjeta de crédito/débito" name="pago" value="Tarjeta de crédito/débito">
+     <label for= "Tarjeta de crédito/débito">Tarjeta de crédito/débito</label>
+     <br>  
+     <br>
+
+  <!--cuadro de texto  -->
+  Contanos tu experiencia de compra! <br>   
+  <textarea name="comentario" rows="5" cols="50">Escribe tu comentario...</textarea>  <br> <br>   
+  
+  <!--botón  -->
+     <input type="submit" value="Enviar" style="background-color: white; font-family:times new roman; font-size:28px">
+
+   </form>
+</body>
+</html>

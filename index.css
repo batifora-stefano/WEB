@@ -5,6 +5,32 @@
   background-position: bottom;
 }
 
+form {
+  background: url(https://image.freepik.com/foto-gratis/fondo-tablas-madera-oscura_23-2148318687.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h2 {
+  background: url(https://image.freepik.com/foto-gratis/fondo-tablas-madera-oscura_23-2148318687.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+input {
+  color: black;
+  background: white;
+  font-size: 20px;
+}
+label {
+  background: transparent;
+}
+textarea {
+  background: white;
+}
+select{
+  background:transparent;
+}
 h1 {
   color: white;
   text-align: center;
@@ -14,13 +40,18 @@ h1 {
   background-position: top;
 }
 body {
-  color: red;
+  color: black;
+}
+table {
+  background: black;
 }
 td {
 	background-position: top;
+  background: black
 }
 th {
 	background-position: top;
+  background: black
 }
 a {
   color: white;
